@@ -42,7 +42,7 @@ return [
     'App' => [
         'namespace' => 'App',
         'encoding' => env('APP_ENCODING', 'UTF-8'),
-        'defaultLocale' => env('APP_DEFAULT_LOCALE', 'en_US'),
+        'defaultLocale' => env('APP_DEFAULT_LOCALE', 'pt_BR'),
         'defaultTimezone' => env('APP_DEFAULT_TIMEZONE', 'UTC'),
         'base' => false,
         'dir' => 'src',
@@ -383,4 +383,8 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
+	
+	'Uploads' => [
+		'imagens' => 'C:/xampp/htdocs/IFSCGAS_PEPPI201901/website/img/'
+		]
 ];
